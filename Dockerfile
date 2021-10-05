@@ -1,4 +1,5 @@
 FROM alpine:3.13
+LABEL author="Javier Sacido <jabbo16@gmail.com>"
 
 RUN apk --no-cache add stress-ng
 
